@@ -1,0 +1,1435 @@
+
+
+.leads-bankruptcy__header {
+    padding-top: 191px;
+    padding-bottom: 44px;
+    background: url('/img/mainimg/leads-bankruptcy-header.jpg') center center / cover no-repeat;
+
+}
+
+.leads-bankruptcy__header h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buy-from__descr-mob {
+    display: none;
+}
+
+.profitable-item__mobile {
+    display: none;
+}
+
+.leads-bankruptcy__header p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 103px;
+}
+
+.leads-bankruptcy__header p span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.profitable-bankruptcy {
+    padding: 90px 0;
+}
+
+.baners-bankruptcy {
+    padding: 50px 0;
+    background: #DF2C56;
+    border-radius: 25px;
+}
+
+.baners-bankruptcy h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.baners-bankruptcy button, .btn-bank {
+    display: block;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 250px;
+    padding: 12px 0;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-blank:hover {
+    color: #fff;
+}
+
+.banners-lidy-one {
+    background: url('/img/bankruptcy/buying-banner-bg.jpg') center center / cover no-repeat;
+    padding: 80px 0;
+    border-radius: 0;
+}
+
+.banners-lidy-one h2 {
+    font-weight: 700;
+    max-width: 1070px;
+}
+
+.banners-lidy-two .btn-bank {
+    max-width: 383px;
+}
+
+.banners-lidy-three {
+    background: url('/img/bankruptcy/buying-banner-two.jpg') center center / cover no-repeat;
+    padding: 82px 0;
+}
+.banners-lidy-three .btn-bank {
+    max-width: 425px;
+}
+
+.banners-lidy-four h2 {
+    max-width: 100%;
+}
+
+.banners-lidy-four button, .banners-lidy-five button {
+    max-width: 297px;
+}
+
+.banners-lidy-five {
+    padding: 82px 0;
+    background: url('/img/bankruptcy/buying-banner-three.jpg') center center / cover no-repeat;
+
+}
+
+.banners-lidy-five h2 {
+    max-width: 944px;
+}
+.br-none {
+    border-radius: 0;
+}
+
+.profitable-item {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.profitable-item p {
+    max-width: 654px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000E1A;
+}
+
+.profitable-item p span {
+    font-weight: 600;
+}
+.profitable-left-img {
+    flex: 1 1 456px;
+}
+
+.profitable-block h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+}
+
+.profitable-block p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #000E1A;
+}
+
+.profitable-block p span {
+    color: #DF2C56;
+    font-weight: 700;
+}
+
+.profitable-list {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.profitable-list li {
+    display: flex;
+    column-gap: 82px;
+    align-items: flex-start;
+}
+
+.profitable-list li p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    color: #000E1A;
+    text-align: left;
+    max-width: 854px;
+}
+
+.profitable-list li p span {
+    font-weight: 600;
+    color:  #000E1A;
+}
+
+
+.profitable__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.buying-lawyers {
+    padding: 90px 0;
+}
+
+.buying-lawyers h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+    max-width: 934px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.buying-lawyers  p {
+    max-width: 776px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    color: #000E1A;
+    margin: 0 auto;
+}
+
+.buying-lawyers__tabs-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.buying-lawyers__tabs {
+    padding: 40px;
+    border: 1px solid #D8D8D8;
+    border-radius: 25px;
+}
+
+.buying-lawyers__tabs-header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.buying-lawyers__tabs-header h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+    color: #000E1A;
+
+}
+
+.buying-lawyers__tabs-header img {
+    transform: rotate(-180deg);
+    transition: all 0.4s;
+}
+
+.buying-lawyers__list {
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+    margin-top: 32px;
+    transition: all 0.4s;
+
+}
+
+.buying-lawyers__list_active {
+    display: none !important;
+}
+
+.buying-lawyers__list li {
+    padding-left: 60px;
+    position: relative;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+}
+
+.buying-lawyers__list li span {
+    font-weight: 600;
+}
+
+.buying-lawyers__list li  a {
+    text-decoration: underline;
+    color: #DF2C56;
+    font-weight: 600;
+}
+
+.buying-lawyers__list li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #DF2C56;
+    background: none;
+    border-radius: 50%;
+}
+
+.rotate {
+    transform: rotate(360deg) !important;
+}
+
+.   .audio-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.audio-controls button {
+    margin-right: 10px;
+}
+
+.audio-progress {
+    height: 5px;
+    width: 100%;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.audio-progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #333;
+    width: 0%;
+}
+
+.audio-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.audio-time span {
+    font-size: 14px;
+}
+
+.regions-leads {
+    padding-top: 90px;
+    padding-bottom: 57px;
+}
+
+.regions-leads h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+    margin-bottom: 50px;
+    white-space: nowrap;
+}
+
+.regions-leads__text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+    margin-bottom: 20px;
+}
+
+.regions-leads__text-two {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000E1A;
+    margin-bottom: 40px;
+}
+
+.regions-leads__descr {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 13px;
+    color: #D0D0D0;
+}
+
+.examples-leads {
+    padding-bottom: 60px;
+}
+
+.examples-leads h3 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+}
+
+.examples-leads p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    color: #000E1A;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 948px;
+}
+
+.examples-leads__wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.examples-leads__descr {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.examples-leads__descr  p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+    text-align: left;
+    margin: 0;
+}
+
+.examples-leads__descr  p span {
+    font-weight: 600;
+}
+
+.buy-from-us {
+    padding: 90px 0;
+}
+
+.buy-from-us h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+    margin-bottom: 50px;
+}
+
+.buy-from-us__sub {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+    margin-bottom: 30px;
+}
+
+.buy-from-us ul {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 736px;
+
+}
+
+.buy-from-us ul li {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.buy-from-us ul li p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+}
+
+.buy-from-us__text {
+    margin-top: 53px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+}
+
+.buy-from-us__text a {
+    text-decoration-line: underline;
+    font-weight: 600;
+    color: #DF2C56;
+}
+
+.buy-from-us__wrap {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+    margin-top: 40px;
+}
+
+.buy-from-us__descr {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 635px;
+    gap: 20px;
+}
+
+.buy-from-us__descr p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A
+}
+
+.buy-from-us__descr p span {
+    font-weight: 600;
+}
+
+.lead-quality {
+    padding: 90px 0;
+}
+
+.lead-quality h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+    margin-bottom: 30px;
+}
+
+.lead-quality p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+}
+
+.lead-quality span {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.lead-quality ul {
+    width: 100%;
+    max-width: 1033px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lead-quality ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.lead-quality ul li p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+}
+
+.lead-quality ul li p span {
+    color: #DF2C56;
+    font-weight: 600;
+}
+
+.buyers {
+    padding-top: 90px;
+}
+
+.buyers h2 {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+}
+
+.buyers__wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.buyers__text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 603px;
+}
+
+.buyers__text p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+    text-align: left !important;
+}
+
+.buyers p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.buyers p a {
+    text-decoration-line: underline;
+    color: #DF2C56;
+    font-weight: 600;
+
+}
+
+.buyers__partners {
+    margin: 40px 0;
+}
+
+.buyers h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+    margin-top: 90px;
+}
+
+.buyers__partners ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.buyers__partners ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.buyers__partners ul li p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+}
+
+.progress-i {
+    width: 200px;
+    height: 16px;
+    position: relative;
+    background: none;
+}
+.proggres__wrap{
+    display: grid;
+    place-items: center;
+    width: 266px;
+    position: relative;
+    border: 2px solid #DF2C56;
+    border-radius: 50px;
+    padding: 22px 0 ;
+
+}
+
+.progress_line {
+    width: 100%;
+    background-color:  #D9D9D9;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.progress_circle {
+    position: absolute;
+    left: 0;
+    background: #DF2C56;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    z-index: 20;
+}
+
+.time {
+
+    left: 34px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #9E9E9E;
+    position: absolute;
+    top: 40px;
+}
+
+.audio__btn {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-color: #DF2C56;
+    position: relative;
+}
+
+.audio-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 50%;
+    width: 350px;
+    position: relative;
+}
+
+.aud-btn-1 {
+    position: absolute;
+    left: 54%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    font-size: 35px;
+    color: #fff;
+
+}
+
+.aud-btn-1 img  {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.aud-btn-2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.audio__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+
+}
+
+.aud-btn-hidden {
+    display: none;
+}
+
+.questions-answer {
+    padding: 90px 0;
+}
+
+.questions-answer h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000E1A;
+    margin-bottom: 50px;
+}
+
+.questions-answer__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.questions-answer__item {
+    border: 1px solid #D8D8D8;
+    border-radius: 25px;
+    padding: 30px 40px;
+}
+.questions-body {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+    margin-top: 30px;
+}
+
+.questions-body span {
+    font-weight: 600;
+}
+
+.questions-body a {
+    text-decoration-line: underline;
+    font-weight: 600;
+    color: #DF2C56;
+}
+.questions-answer__tabs {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+
+.questions-text {
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 42px;
+    color: #000E1A;
+}
+
+.questions-answer__tabs img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.questions-img-one {
+    opacity: 1 !important;
+}
+.questions-img-two {
+    opacity: 0 !important;
+}
+
+
+.questions-img-op-one {
+    opacity: 0;
+}
+
+.questions-img-op-two {
+    opacity: 1;
+}
+
+.questions-hidden{
+    display: none;
+}
+
+
+.buyers__items {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.buyers__left {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 100%;
+    max-width: 604px;
+}
+
+.buyers__left p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    color: #000E1A;
+    text-align: left;
+}
+
+.buyers__left p  span {
+    font-weight: 600;
+}
+
+.buyers__pik {
+    text-decoration-line: underline;
+    font-weight: 600;
+    color: #DF2C56;
+}
+
+.buyers__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 0;
+   background: url('/img/bankruptcy/reviews.jpg') right center  no-repeat;
+    border-radius: 25px 0 0 25px;
+    margin-left: 49px;
+    min-height: 399px;
+}
+
+.buyers__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.buyers__form h4 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buyers__form_tel {
+    padding: 10px 30px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    border: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #C5C5C5;
+    width: 100%;
+    max-width: 339px;
+}
+
+.buyers__form_te::placeholder {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 339px;
+    color: #C5C5C5;
+}
+
+.buyers__btn {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+    background: none;
+    border: none;
+    padding: 14px 100px;
+    border: 2px solid #FFFFFF;
+    border-radius: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+
+@media (max-width: 1200px) {
+    .profitable-list li p {
+        max-width: 750px;
+    }
+
+    .audio__items {
+        flex-wrap: wrap;
+    }
+
+    .regions-leads h2 {
+        white-space: normal;
+    }
+
+
+}
+
+
+@media (max-width: 992px) {
+    .baners-bankruptcy h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .profitable-bankruptcy {
+        padding: 50px 0;
+    }
+
+    .profitable-item {
+        display: none;
+    }
+
+    .profitable-item__mobile {
+        display: flex;
+        padding: 50px 0;
+    }
+
+    .profitable-item__mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profitable-item__mobile p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000E1A;
+    }
+
+    .profitable-item__mobile p span {
+        font-weight: 600;
+    }
+
+    .profitable-items__mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    .profitable-items__mobile img {
+        width: 183px;
+        height: 130px;
+    }
+
+    .profitable-block h2 {
+
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .profitable-list {
+        padding: 30px 0;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .profitable-list li {
+        column-gap: 20px;
+    }
+
+    .profitable-list li p {
+        max-width: 283px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .profitable-list__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .profitable-block p {
+        font-size: 20px;
+    }
+
+    .buying-lawyers {
+        padding: 50px 0;
+    }
+
+    .buying-lawyers h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .buying-lawyers p {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+  .buying-lawyers__tabs-wrap {
+      margin-top: 30px;
+  }
+
+    .buying-lawyers__tabs {
+        padding: 20px 15px;
+    }
+
+    .buying-lawyers__tabs-header  h4{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .buying-lawyers__list li:before {
+        width: 15px;
+        height: 15px;
+    }
+
+    .buying-lawyers__list li {
+        padding-left: 30px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .examples-leads {
+        padding-bottom: 50px;
+    }
+
+    .examples-leads h3 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .examples-leads p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+
+    .audio__items {
+        gap: 30px;
+    }
+
+    .examples-leads__wrap {
+        margin-top: 30px;
+    }
+
+    .examples-leads__descr p {
+        margin-bottom: 0;
+    }
+
+    .buy-from-us {
+        padding: 50px 0;
+    }
+
+    .buy-from-us h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .buy-from-us__sub {
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+
+    .buy-from-us ul {
+        gap: 20px;
+    }
+
+    .buy-from-us ul li {
+        gap: 15px;
+
+    }
+
+    .buy-from-us ul li p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .buy-from-us ul li img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .buy-from-us__text {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 30px;
+    }
+    
+    .buy-from-us__img {
+        display: none;
+    }
+    .mob {
+        display: none;
+    }
+
+    .buy-from-us__wrap {
+        margin-top: 30px;
+    }
+
+    .buy-from-us__descr {
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .buy-from__descr-mob {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .buy-from__descr-mob img {
+        width: 130px;
+        height: 136px;
+
+    }
+
+    .buy-from-us__descr p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .lead-quality {
+        padding: 50px 0;
+    }
+
+    .lead-quality h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .lead-quality p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .lead-quality ul {
+        margin-top: 30px;
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .lead-quality ul li p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .questions-answer {
+        padding: 50px 0;
+        margin-bottom: 40px;
+    }
+
+    .questions-answer__item {
+        padding: 20px 45px 20px 15px;
+    }
+
+    .questions-text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .questions-answer__tabs img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .questions-body {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .buyers {
+        padding: 50px 0;
+    }
+
+    .buyers h2 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .buyers__wrap {
+        margin-bottom: 30px;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buyers__bg {
+        width: 145px;
+        height: 151px;
+    }
+
+    .buyers__text {
+        max-width: 450px;
+    }
+
+    .buyers__text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .buyers__text {
+        gap: 10px;
+    }
+
+    .buyers p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .buyers__partners ul {
+        flex-wrap: wrap;
+        row-gap: 40px;
+        column-gap: 40px;
+    }
+
+    .buyers h3 {
+        margin-top: 50px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .buyers__items {
+        flex-direction: column;
+    }
+
+    .buyers__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .buyers__right {
+        margin: 0 auto;
+        border-radius: 0;
+
+    }
+
+    .regions-leads {
+        padding: 50px 0;
+    }
+
+    .regions-leads h2 {
+        margin-bottom: 30px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .regions-leads__text {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 30px;
+    }
+
+    .regions-leads__text-two {
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .leads-bankruptcy__header {
+        padding-top: 140px;
+    }
+
+    .leads-bankruptcy__header h1 {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .leads-bankruptcy__header p {
+        margin-top: 60px;
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .leads-bankruptcy__header p span {
+        margin-top: 60px;
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media (max-width: 768px) {
+    .baners-bankruptcy {
+        padding: 30px 8px;
+    }
+
+    .baners-bankruptcy h2 {
+        margin-bottom: 20px;
+    }
+
+    .baners-bankruptcy button, .btn-bank {
+        max-width: 222px;
+        font-size: 20px;
+        line-height: 28px;
+        padding: 10px 0;
+    }
+
+    .banners-lidy-one button{
+        max-width: 100%;
+    }
+    .banners-lidy-two .btn-bank {
+        max-width: 311px;
+    }
+
+    .banners-lidy-three .btn-bank {
+        max-width: 311px;
+    }
+
+    .banners-lidy-four button {
+        max-width: 311px;
+    }
+
+    .banners-lidy-five button {
+        max-width: 311px;
+    }
+
+    .buyers__form {
+        gap: 20px;
+    }
+
+    .buyers__right {
+        min-height: 247px;
+    }
+
+    .buyers__form h4{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .buyers__form_tel {
+        max-width: 309px;
+    }
+
+    .buyers__btn {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 10px 94px;
+    }
+}
+
+@media (max-width: 576px) {
+    .questions-text {
+        max-width: 285px;
+    }
+
+    .profitable-list li p {
+        max-width: 205px;
+    }
+}

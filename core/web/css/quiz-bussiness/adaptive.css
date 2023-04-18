@@ -1,0 +1,117 @@
+
+@media(max-width:700px){
+    .container{
+        padding: 20px !important;
+    }
+    .header .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_left{
+        align-items: center;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .header_right{
+        margin-left: 0px;
+    }
+    .btn--main{
+        margin: 0px 20px;
+        padding: 18px 22px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .title span{
+        font-size: 30px;
+    }
+    .main_info_cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_info_cards-item:first-child{
+        margin-bottom: 20px;
+    }
+    .main_info_btn-row{
+        margin-bottom: 20px;
+    }
+    .main_info_cards-item-title{
+        font-size: 18px;
+    }
+    .main_info_cards-item-text{
+        font-size: 14px;
+    }
+    .Staps{
+        padding: 40px 20px;
+    }
+    .popup_staps{
+        padding: 40px 20px;
+    }
+}
+@media(max-width:600px){
+    .footer_top{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer_top_left{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer_top_rigth{
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .main_info_btn-row-arrow-right, .main_info_btn-row-arrow-left{
+        display: none;
+    }
+    .main_info_btn-row{
+        justify-content: center;
+    }
+    .btn--main p{
+        font-size: 18px;
+        margin-left: 38px;
+    }
+    .footer_bottom{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer_bottom_left{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .footer_bottom_right{
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .quiz-title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .label{
+        padding: 12px 18px;
+        margin-bottom: 8px;
+    }
+    .label p{
+        font-size: 16px;
+    }
+    .quiz-input-group{
+        margin-bottom: 20px;
+    }
+    .btn-quiz-submit p{
+        font-size: 18px;
+        margin-left: 38px;
+    }
+    .link-btn p{
+        font-size: 18px;
+        margin-right: 38px;
+    }
+    .link-btn{
+        padding: 12px 18px;
+    }
+}

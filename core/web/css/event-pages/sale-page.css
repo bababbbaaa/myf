@@ -1,0 +1,122 @@
+/* <---------SALE HEADER---------> */
+.sale__article{
+    background: #E5E5E5;
+}
+.sale__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    color: #010101
+}
+.sale__header{
+    margin-top: 40px;
+    align-items: start;
+    padding: 0;
+}
+.sale__header-text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 145%;
+    color: #3D3D4B;
+}
+
+.sale_color_purple{
+    color: #43419E;
+}
+/* <---------SALE HEADER---------> */
+
+/* <---------SALE DESCRIPTION---------> */
+.sale-description{
+    padding-bottom: 80px;
+}
+.sale-description__info{
+    width: 100%;
+    padding: 60px 40px;
+    border-radius: 8px;
+}
+
+.sale__button{
+    margin-top: 28px;
+}
+/* <---------SALE DESCRIPTION---------> */
+
+/* <---------SALE MAIN---------> */
+.sale-main__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.sale-main__header-title{
+    color: #23213D;
+    margin-bottom: 12px;
+}
+.sale-main__header-subtitle{
+    color: #23213D;
+    margin-bottom: 12px;
+}
+
+.sale-main__curses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.sale-main__curses-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px 40px;
+    background: #F4F7FE;
+    border: 1px solid rgba(209, 221, 238, 0.82);
+    box-sizing: border-box;
+    border-radius: 12px;
+    max-width: 48%;
+    flex: 1 1 48%;
+    justify-content: space-between;
+}
+.curses-item-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    /* or 23px */
+
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    /* lead/осн/неактив */
+
+    color: #5C687E;
+    margin-bottom: 20px;
+}
+
+.curses-item-header{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 145%;
+    color: #4135F1;
+    margin-bottom: 8px;
+}
+.curses-item-lesson{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 145%;
+    /* or 26px */
+
+
+    /* lead/осн/неактив */
+
+    color: #5C687E;
+
+}
+
+/* <---------SALE MAIN---------> */

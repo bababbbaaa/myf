@@ -1,0 +1,199 @@
+body,
+html,
+h1,
+div,
+button,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  color: #181240;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.thanks-background {
+  margin-top: 80px;
+  height: 634px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../img/arbitraj/arbitration-thanks-background.png');
+}
+
+.form-background {
+  width: 65%;
+  background: #fff;
+  border-radius: 0 4px 4px 0;
+}
+
+.container {
+  position: relative;
+  top: 40px;
+  max-width: 1240px;
+  padding-left: 40px;
+  padding-right: 0;
+  margin: 0 auto;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 54%;
+  left: -50%;
+  height: 100%;
+  background: #fff;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 145%;
+  color: #010101;
+  margin-bottom: 30px;
+}
+
+.thanks-step-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 65px 95px 60px 20px;
+}
+
+.thanks-step-2 {
+  display: none;
+  flex-direction: column;
+  padding: 65px 95px 60px 20px;
+  height: 400px;
+}
+
+.thanks-step-1 form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  background: #fff;
+}
+
+.thanks-step-1 input {
+  padding: 24px 12px;
+  border-radius: 10px;
+  border: 1px solid #83839e;
+}
+
+.thanks-step-1 form input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  color: #83839e;
+}
+
+.thanks-step-1 button {
+  margin-top: 28px;
+  align-self: flex-end;
+}
+
+.thanks-step-1__info {
+  margin-top: 5px;
+  max-width: 350px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 145%;
+  text-align: right;
+  color: #83839e;
+  align-self: flex-end;
+}
+
+.preloader {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.preloader_body {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.preloader_body p {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
+.lds-dual-ring {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.thanks-step-1__info a {
+  text-decoration: underline;
+}
+
+.arbitration-thanks-btn {
+  width: 205px;
+  height: 47px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  padding: 12px 24px;
+  background: #43419e;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 6px 6px 14px rgba(46, 46, 46, 0.08);
+}
+
+.thanks-step-2 div {
+  margin-top: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .container::before {
+    width: 56%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container::before {
+    width: 0%;
+  }
+  .form-background {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .thanks-step-1 {
+    padding: 20px;
+  }
+}

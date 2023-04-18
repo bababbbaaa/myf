@@ -1,0 +1,133 @@
+@media (max-width: 1220px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .cards {
+    padding: 70px 0 0;
+  }
+
+  .franchise .container {
+    height: 2140px;
+    position: relative;
+    overflow: auto;
+    overflow-y: hidden;
+  }
+
+  .type-franchise {
+    position: absolute;
+    top: 90px;
+    left: -60px;
+  }
+
+  .cards .pow {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: center;
+    gap: 42px 0;
+  }
+
+  .cardimg {
+    max-width: unset !important;
+    width: 45%;
+    gap: 10px;
+  }
+
+  .cardimg p {
+    max-width: 250px;
+  }
+
+  .work-femida__cards {
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .work-femida__card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 32%;
+  }
+
+  .maps {
+    text-align: left;
+  }
+
+  .maps .svgshka {
+    width: 800px;
+  }
+}
+
+@media (max-width: 990px) {
+  .maps .svgshka {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo.femida__promo .pow {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .type-franchise {
+    top: 50px;
+  }
+
+  .cardimg p {
+    font-size: 16px;
+    max-width: 200px;
+  }
+
+  .work-femida__card {
+    flex-basis: 100%;
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .work-femida__card p {
+    font-size: 16px;
+  }
+
+  .work-femida__card img {
+    width: 150px;
+  }
+
+  .maps .svgshka {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .work-femida {
+    padding: 50px 0;
+  }
+
+  .type-franchise {
+    top: 30px;
+    left: -40px;
+  }
+
+  .franchise .container {
+    height: 2060px;
+  }
+
+  .GlSec5 {
+    display: none;
+  }
+  .cardimg {
+    width: 100%;
+  }
+
+  .work-femida__card p {
+    font-size: 14px;
+  }
+
+  .work-femida__card img {
+    width: 120px;
+  }
+}

@@ -1,0 +1,118 @@
+
+@media(max-width: 1080px){
+    .activeproject_tab-1 .activeproject_tab_top-text-wd:nth-child(4){
+        max-width: 110px;
+    }
+    .activeproject_tab_main-row-item-title{
+        font-size: 14px;
+    }
+    .activeproject_tab_main-row-item-text{
+        font-size: 12px;
+    }
+}
+@media(max-width: 680px){
+    .activeproject_tab_top{
+        display: none;
+    }
+    .activeproject_tab_main-row{
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+    }
+    .activeproject_tab_main-row-item{
+        align-items: center;
+        text-align: center;
+    }
+    .activeproject_tab-1 .activeproject_tab_top-text-wd:nth-child(4){
+        text-align: center;
+    }
+    .activeproject_tab-2_main-item{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px;
+    }
+    .activeproject_tab-2 .activeproject_tab_top-text-wd:nth-child(4){
+        text-align: center;
+    }
+    .activeproject_tab-2_bottom{
+        padding: 20px;
+        padding-top: 0px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .activeproject_tabs--btn{
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+    .activeproject_wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .activeproject_card{
+        max-width: 100%;
+    }
+    .activeproject_tab-2_bottom-text{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 600px){
+    .myprojects_main-item{
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myprojects_main-item_left, .myprojects_main-item_right{
+        max-width: 100%;
+        align-items: center;
+    }
+    .myprojects_main-item_left-name{
+        margin-bottom: 20px;
+    }
+    .popup-main{
+        padding: 20px;
+    }
+    .popup-main-text{
+        margin-bottom: 20px;
+    }
+    .activeproject_card{
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .activeproject_about-text{
+        text-align: center;
+    }
+    .activeproject_wrap_right-row, .activeproject_wrap_right-row_left{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .notif_pay-close{
+        top: 12px;
+        right: 12px;
+    }
+    .startproject{
+        padding: 20px;
+    }
+    .checkbox-group{
+        gap: 4px;
+    }
+    .input-checkbox-wrapper, .input-checkbox-indicator{
+        max-width: 100%;
+        width: 100%;
+    }
+    .create-resume-form_main_btns{
+        justify-content: start;
+    }
+    .mainpage_column-item-balance{
+        background-image: none;
+    }
+}

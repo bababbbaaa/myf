@@ -1,0 +1,623 @@
+@media (max-width: 1440px) {
+    .rightInfo {
+        max-width: 1080px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .promotion__add {
+        background-image: none;
+    }
+
+    .catalogpage__title {
+        font-size: 36px;
+    }
+
+    .catalogpage__main-dec {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .catalogpage__main-info {
+        flex-wrap: wrap;
+    }
+
+    .catalogpage__main-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .catalogpage__main-img {
+        flex: 0 1 360px;
+    }
+
+    .catalogpage__main-content {
+        flex: 0 1 500px;
+    }
+
+    .coins__bonuses {
+        width: auto;
+    }
+
+    .catalog__content {
+        max-width: 403px;
+    }
+
+    /*---Технологии---*/
+    .benefits {
+        background-size: 20%;
+    }
+
+    .my-techno-dont-have {
+        background-size: 26%;
+    }
+
+    .technology-important_container, .technology-warning .technology-important_container {
+        background-image: none;
+    }
+
+    /*---Технологии---*/
+    /*---franchize---*/
+    .getting-clients {
+        background-image: none;
+    }
+
+    /*---franchize---*/
+}
+
+@media (max-width: 1050px) {
+    .package-card__inner {
+        flex-direction: column;
+    }
+
+    .package-card__main {
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .know__article {
+        padding: 20px;
+    }
+
+    .know__catalog-row {
+        padding: 15px;
+        column-gap: 20px;
+    }
+
+
+    .catalogpage__article {
+        display: block;
+    }
+
+    .catalogpage__main-img {
+        display: none;
+    }
+
+    .catalog__content {
+        max-width: 100%;
+    }
+
+    .catalog__box {
+        background-image: none;
+    }
+
+    .catalog__cards {
+        margin-bottom: 20px;
+    }
+
+    .catalog__box-title {
+        font-size: 22px;
+    }
+
+    .catalog {
+        padding-top: 25px;
+    }
+
+    /*---franchize---*/
+    .your-package, .your-package-have {
+        background-image: none;
+    }
+
+    /*---franchize---*/
+}
+
+@media (max-width: 768px) {
+    .know__popular-title {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .know__search {
+        margin-bottom: 20px;
+    }
+
+    .know__inner {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .know__catalog-row {
+        column-gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .judge-bro, .interview-bro {
+        display: none;
+    }
+
+    .know__catalog {
+        margin-bottom: 20px;
+    }
+
+    .catalogpage__main-inner {
+        display: block;
+    }
+
+    .know__popular {
+        margin-bottom: 20px;
+    }
+
+    .catalogpage__title {
+        font-size: 22px;
+    }
+
+    .catalogpage__main-subtext {
+        margin-bottom: 20px;
+    }
+
+    .catalogpage__main-info {
+        justify-content: left;
+    }
+
+    .catalogpage__main-inner {
+        margin-bottom: 30px;
+    }
+
+    .catalogpage__main-title {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .catalogpage__main {
+        margin-bottom: 50px;
+    }
+
+    /*---Технологии---*/
+    .benefits {
+        background-size: unset;
+        background-position: top center;
+    }
+
+    .benefits_container {
+        padding-top: 240px;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .benefits-list {
+        max-width: fit-content;
+    }
+
+    .all-techno_container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .all-techno-item:nth-child(2n+1) {
+        border: none;
+    }
+
+    .all-techno-item, .all-techno-item:first-child {
+        border: none;
+        border-bottom: 2px solid #F0F1F8;
+        max-width: 100%;
+        padding: 18px;
+    }
+
+    .all-techno-item:last-child {
+        border: none;
+    }
+
+    .all-techno {
+        margin-bottom: 40px;
+    }
+
+    .techno-top-tabs {
+        padding: 12px;
+        padding-bottom: 0px;
+    }
+
+    .techno-top-fillbar {
+        padding: 0px 12px;
+    }
+
+    .techno-top-tab {
+        margin-left: 20px;
+    }
+
+    .my-techno {
+        margin-bottom: 40px;
+    }
+
+    .my-techno-dont-have {
+        background-image: none;
+        padding: 18px;
+        min-height: fit-content;
+    }
+
+    .my-techno-dont-have-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .my-techno-dont-have-text {
+        font-size: 18px;
+    }
+
+    .my-techno-dont-have_container {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .techology_top {
+        padding: 20px;
+    }
+
+    .techology_top-column {
+        margin-bottom: 12px;
+    }
+
+    .techology-essence, .technology-included {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .techology-essence-info {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    .technology-allow-list, .technology-included-list {
+        flex-direction: column;
+    }
+
+    .technology-important {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .technology-important_container {
+        padding: 18px;
+    }
+
+    .technology-buy {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .technology-buy_right {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .technology-buy_right-link {
+        margin-left: 0px;
+    }
+
+    .techology {
+        margin-bottom: 40px;
+    }
+
+    .bcr__item {
+        font-size: 10px;
+    }
+
+    .types-technology {
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .implemented-technology {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .implemented-technology-box-item{
+        margin: 5px;
+        max-width: 130px;
+        background-size: contain;
+    }
+    .implemented-technology-box {
+        justify-content: center;
+    }
+    .techology-essence, .technology-included{
+
+    }
+    .technology-included-list-item-info{
+        max-width: 255px;
+        font-size: 14px;
+    }
+    .technology-allow-list-item-info{
+        max-width: 255px;
+        font-size: 14px;
+    }
+    .technology-important_info {
+        max-width: 100%;
+    }
+
+    .techology_top-under-title {
+        font-size: 20px;
+    }
+
+    .techology_top-title {
+        font-size: 26px;
+    }
+
+    .technology-once-title {
+        align-self: center;
+        padding: 0px 20px;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /*---Технологии---*/
+    /*---franchize---*/
+    .franchize-title {
+        padding-top: 20px;
+    }
+
+    .your-package {
+        align-items: center;
+        text-align: center;
+    }
+
+    .your-package_last-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .your-package_last-row-link {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    .your-package-list-item {
+        text-align: left;
+        flex-direction: column;
+    }
+
+    .getting-clients-container {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .getting-clients_lasr-row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .getting-clients_lasr-row-link {
+        margin-left: 0px;
+    }
+
+    .getting-clients-text {
+        margin-bottom: 18px;
+    }
+
+    .getting-clients-title {
+        margin-bottom: 12px;
+    }
+
+    /*---franchize---*/
+}
+
+@media (max-width: 480px) {
+    .promotion__add-link {
+        white-space: normal;
+    }
+
+    .promotion__add-title {
+        font-size: 18px;
+    }
+
+    .know__page-top {
+        padding: 10px 10px 0;
+    }
+
+    .know__page-text {
+        padding: 15px;
+    }
+
+    ul.know__catalog-list--cat {
+        columns: 1;
+    }
+
+    .know__catalog-row {
+        margin-bottom: 15px;
+    }
+
+    .know__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .know__catalog-title {
+        text-align: center;
+    }
+
+    .catalogpage__title,
+    .catalogpage__main-subtext {
+        text-align: center;
+    }
+
+    .catalog__cards-title {
+        color: #007FEA;
+        text-decoration-line: underline;
+    }
+
+    .catalogpage__main-info {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .catalogpage__main-item {
+        margin-bottom: 8px;
+    }
+
+    .catalogpage__main-num {
+        font-size: 20px;
+    }
+
+    .catalogpage__main-link {
+        max-width: 185px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .catalogpage__main-dec {
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+
+    .catalogpage__main-title {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .catalogpage__article-text {
+        margin-bottom: 18px;
+    }
+
+    .aside__main-item {
+        padding: 10px;
+    }
+
+    .aside__main-title {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .catalogpage__package-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .catalogpage__package-subtitle {
+        font-size: 18px;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .package-card__top {
+        padding: 10px;
+        min-height: 50px;
+    }
+
+    .package-card__link {
+        max-width: 185px;
+        display: block;
+        margin: 0 auto 10px;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .package-card__btn {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .package-card__price {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .package-card__price-summ {
+        font-size: 18px;
+    }
+
+    .catalogpage__wrapp {
+        padding: 30px 15px;
+    }
+
+    .package-card__inner {
+        padding: 15px;
+    }
+
+    .catalogpage__main {
+        margin-bottom: 25px;
+    }
+
+    .catalogpage__package {
+        padding: 20px 15px;
+    }
+
+    .package-card__content p {
+        margin-bottom: 20px;
+    }
+
+    .catalog__cards-item {
+        flex: 0 1 435px;
+        min-height: 100%;
+    }
+
+    .catalog__cards-btns {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .catalog__cards-btn {
+        min-width: 200px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .catalog__box {
+        padding: 20px;
+    }
+
+    .catalog__box-text {
+        font-size: 16px;
+    }
+
+    .catalog__box-text p {
+        margin-bottom: 8px;
+    }
+
+    .catalog__box-title {
+        font-size: 18px;
+    }
+
+    .catalog__content,
+    .catalog__cards-title,
+    .catalog__cards-price,
+    .catalog__cards-subtitle,
+    .catalog__cards-text {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    /*---Технологии---*/
+    .techno-link_bottom {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    /*---Технологии---*/
+}

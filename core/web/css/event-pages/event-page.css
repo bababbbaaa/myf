@@ -1,0 +1,111 @@
+/* <---------EVENT HEADER---------> */
+.event__article{
+    background: #43419E;
+}
+.event__nav-link_active{
+    color: #F4F3F9 !important;
+}
+
+.event__category{
+    color: #A1C6B9;
+}
+.event_color_white{
+    color: #FFFFFF;
+}
+
+.event__date:after{
+    background: url("/img/event-pages/Calendar-white.svg") center  center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+.event__city:after{
+    background: url("/img/event-pages/Location-white.svg") center  center no-repeat;
+    width: 25px;
+    height: 25px;
+}
+/* <---------EVENT HEADER---------> */
+
+/* <---------EVENT MAIN---------> */
+.event-main__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 145%;
+    color: #010101;
+    margin-bottom: 24px;
+}
+.event-main__company{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+    color:#7A6BDE;
+    margin-bottom: 24px;
+}
+.event-main__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 145%;
+    color: #3D3D4B;
+    margin-bottom: 40px;
+}
+.event-main__container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.speakers-title{
+    margin-bottom: 40px;
+}
+.event-main__speakers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.event-main__speaker{
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker__img{
+    border-radius: 50%;
+    max-width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+.speaker__name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 145%;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.speaker__achievements{
+    list-style-type: disc !important;
+    padding-left: 20px !important;
+}
+.speaker__achievements-item{
+    list-style-type: disc;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+    color: #83839E;
+    max-width: 255px;
+    margin-bottom: 8px;
+}
+
+.event-main__button{
+    margin: 0 auto;
+}
+/* <---------EVENT MAIN---------> */
+
+/* <---------EVENT OFFER---------> */
+.event-offer__item{
+    background: none;
+}
+/* <---------EVENT OFFER---------> */

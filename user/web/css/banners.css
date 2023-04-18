@@ -1,0 +1,319 @@
+.ban__block{
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner{
+    padding: 40px 40px 0 40px;
+    max-width: 945px;
+    box-sizing: content-box;
+}
+.banner_body{
+    position: relative;
+    padding: 28px 0 32px 52px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_body-info{
+    position: relative;
+}
+.banner_body-info:before{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 137px;
+    position: absolute;
+    background-color: white;
+    left: -12px;
+    top: 14px;
+}
+.banner_body-info h5{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 114%;
+    color: #FFFFFF;
+    max-width: 335px;
+    margin-bottom: 12px;
+}
+.banner_body-info h5 span{
+    font-weight: 400;
+    font-size: 32px;
+}
+.banner_body-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CBD0E8;
+    max-width: 515px;
+    margin-bottom: 20px;
+}
+.btn--white{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #181240;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    max-width: 170px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.banner__index--left{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 570px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+.banner__index--left-info h5{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.banner__index--left-info h5 span{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.banner__index--left--text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 56px;
+}
+.banner__index--right{
+    position: relative;
+    max-width: 355px;
+    width: 100%;
+    padding: 40px 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.right_info-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000533;
+    margin-bottom: 4px;
+}
+.right_info-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5B617C;
+    margin-bottom: 12px;
+}
+.right_info-info{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000533;
+    margin-bottom: 28px;
+}
+.right_info-info-span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #E44E2B;
+}
+.bannerFoot{
+    margin: 0 auto;
+    padding: 0 40px 40px 40px;
+    max-width: 945px;
+    box-sizing: content-box;
+}
+.bannerFoot__body{
+    position: relative;
+    padding: 40px 60px;
+    border-radius: 12px;
+}
+.all__link-ban{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.bannerFoot__info h5{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.bannerFoot__info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F0F1F8;
+    margin-bottom: 20px;
+    max-width: 388px;
+}
+.btn--red{
+    background: #FB593B;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    max-width: 170px;
+    width: 100%;
+    display: block;
+}
+.btn--blue{
+    background: #007FEA;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    max-width: 170px;
+    width: 100%;
+    display: block;
+}
+.btn--pink{
+    background: #D60BC8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    max-width: 170px;
+    width: 100%;
+    display: block;
+}
+.btn--orange{
+    background: #FFC644;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #20293A;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    max-width: 170px;
+    width: 100%;
+    display: block;
+}
+.right__banners{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ban__card{
+    position: relative;
+    border-radius: 8px;
+    max-width: 295px;
+    width: 100%;
+    padding: 20px 28px;
+    min-height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ban__card-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+.ban__card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F2F6FF;
+    margin-bottom: 20px;
+}
+.miniban__list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EEEEEE;
+}
+.btn--text{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1680px) {
+    .right__banners{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .ban__index-flex{
+        flex-direction: column;
+    }
+    .banner__index--left{
+        width: 100%;
+        max-width: none;
+    }
+    .banner__index--right{
+        width: 100%;
+        max-width: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .banner, .bannerFoot{
+        padding: 20px;
+    }
+    .bannerFoot__body{
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

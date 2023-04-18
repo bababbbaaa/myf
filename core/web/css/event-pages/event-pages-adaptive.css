@@ -1,0 +1,74 @@
+@media screen and (max-width: 800px){
+    .article-description__img{
+        display: none;
+    }
+    .article-description__price{
+        margin-top: 20px;
+    }
+    .article-form__container,.article-event-form{
+        max-width: 80%;
+    }
+    .timer__time{
+        column-gap: 10px;
+    }
+
+    .sale-main__curses-item{
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .article__header{
+        flex-wrap: wrap;
+    }
+    .article__info{
+        flex: 0 0 auto;
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .sale-main__curses-item{
+        max-width: 100%;
+    }
+    .article-form__container,.article-event-form{
+        max-width: 100%;
+    }
+    .article-form__container{
+        padding-right: 50px;
+        padding-left: 50px;
+        align-items: center;
+    }
+    .article-event-form{
+        align-items: center;
+    }
+
+    .event-main__speakers{
+        row-gap: 10px;
+    }
+    .event-main__speaker{
+        align-items: center;
+    }
+    .speaker__achievements{
+        padding-left: 40px !important;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .article-description__info{
+        padding: 15px 15px;
+    }
+    .timer__time{
+        column-gap: 9px;
+    }
+
+    .timer__value {
+        font-size: 55px;
+    }
+    .occasion__button{
+        margin: 8px auto 0px auto;
+    }
+    .article-form__submit{
+        width: 100%;
+    }
+}

@@ -1,0 +1,432 @@
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1218px) {
+    .prof__nav-li.active{
+        border-right: 2px solid #4135F1;
+        color: #4135F1;
+    }
+}
+@media (max-width: 1160px) {
+    .Hcont-skil-link{
+        display: none;
+    }
+    .mainpage_wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainpage_column{
+        max-width: 100%;
+    }
+    .next-meeting{
+        margin-left: 0px;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    .courses_item_info_image{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .courses_item_info{
+        flex-direction: column;
+        align-items: start;
+    }
+    .courses_item_info_image{
+        justify-content: start;
+    }
+    .programs_wrapper{
+        flex-direction: column;
+        align-items: start;
+    }
+    .programs_left-filter{
+        max-width: 100%;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 1050px){
+    .mycours-wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mycours{
+        max-width: 100%;
+    }
+    .cours-progress{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .viewcours_main{
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .viewcours-structure{
+        max-width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+    .viewcours_main_info{
+        max-width: 100%;
+    }
+    .vebinar-speakers{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .vebinar_prev-block{
+        flex-direction: column;
+    }
+    .vebinar_prev-block_right{
+        margin-left: 0px;
+        margin-bottom: 12px;
+        align-items: start;
+        text-align: left;
+    }
+    .course-buy_aside{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .coursepage.rightInfo .title_row{
+        flex-direction: column;
+        align-items: start;
+    }
+    .title_row_right_top{
+        margin-top: 8px;
+    }
+    .create-resume-form_container{
+        flex-direction: column;
+    }
+    .create-resume-form_main{
+        padding: 0px;
+        padding-top: 40px;
+        border: none;
+        border-top: 1px solid #CBD0E8;
+    }
+    .create-resume-form_left{
+        margin-bottom: 20px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .created-resume{
+        padding: 40px;
+    }
+    .myprogramm-list{
+        max-width: 100%;
+    }
+    .webinar-info{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .vacancies_list-item_left{
+        align-items: center;
+        text-align: center;
+    }
+    .vacancies_list-item_right{
+        align-items: center;
+        text-align: center;
+    }
+    .vacancies_list-item{
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .create-resume-form_main_btns{
+        justify-content: center;
+    }
+    .stat_list_card_medle{
+        flex-direction: column;
+        align-items: start;
+    }
+    .stat_list_card_medle_right{
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    .stat_list_card_top{
+        flex-direction: column;
+    }
+    .stat_list_card_medle_left{
+        padding-top: 0px;
+    }
+    .addprogram_anket .create-resume-form_main_btns{
+        justify-content: start;
+    }
+}
+@media (max-width: 600px) {
+    .addprogram_first_isnt-upload-list-item{
+        padding: 20px;
+    }
+    .addprogram_first_isnt-upload-list-item-top{
+        flex-direction: column-reverse;
+    }
+    .addprogram_first_isnt-upload-list-item-type{
+        margin-bottom: 4px;
+    }
+    .mainpage_column-item-balance{
+        background-image: none;
+    }
+    .mainpage_column-item{
+        padding: 20px;
+    }
+    .mainpage_column-item_container{
+        align-items: center;
+        text-align: center;
+    }
+    .mainpage_column-item-free_row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainpage_column-item-free_row_left{
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .mainpage_column-item-free_row_right{
+        margin-left: 0px;
+        margin-top: 12px;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .inviting{
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        background-image: none;
+    }
+    .next-meeting{
+        padding: 20px;
+    }
+    .next-meeting-title{
+        align-self: center;
+        text-align: center;
+    }
+    .balance-tab{
+        padding: 20px;
+    }
+    .cartBlock__head h2{
+        margin-top: 20px;
+    }
+    .nocartBlock__btngroup{
+        flex-direction: column;
+    }
+    .red__button--card{
+        margin-right: 0px;
+        margin-bottom: 12px;
+    }
+    .clubCart__nocartBlock{
+        padding: 0px;
+    }
+    .spend__link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .spend__flex-ads{
+        padding: 12px;
+    }
+    .rightInfo .title_row{
+        flex-direction: column;
+        align-items: start;
+    }
+    .rightInfo .title_row a{
+        text-align: left;
+        margin-top: 12px;
+    }
+    .courses_item{
+        padding: 18px;
+    }
+    .courses_item_info_right-block{
+        padding: 20px;
+    }
+    .courses_item_info_right-block-title{
+        margin-left: 24px;
+    }
+    .courses_none{
+        padding: 20px 0px;
+    }
+    .vebinar-open{
+        background-image: none;
+    }
+    .myprogramm-container{
+        flex-direction: column;
+    }
+    .myprogramm_right{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .myprogramm_left, .myprogramm_right{
+        max-width: 100%;
+    }
+    .myprogramm_right_bottom img{
+        align-self: center;
+    }
+    .title-main{
+        margin-bottom: 12px;
+        margin-right: 0px;
+    }
+    .addprogram_anket{
+        padding: 20px;
+    }
+    .check-lesson-type-2_block_row{
+        flex-direction: column;
+        align-items: start;
+        row-gap: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .check-lesson-grading-format-2_block_moduls-item_main-item{
+        flex-direction: column;
+        row-gap: 8px;
+        align-items: start;
+    }
+    .lesson-access-date-input{
+        text-align: left;
+    }
+    .check-lesson-grading-format-2_block_moduls-item-btn{
+        font-size: 14px;
+        line-height: 18px;
+        padding: 8px 12px;
+    }
+    .btn--type-module{
+        max-width: 100%;
+    }
+    .addprogram_first-type-item{
+        max-width: 100%;
+    }
+    .programs_wrapper .MyOrders_filter-check-l{
+        margin-bottom: 0px;
+    }
+    .programs-search{
+        margin-top: 8px;
+    }
+    .programs_wrapper .MyOrders_filter-check-l{
+        margin-top: 8px;
+    }
+    .programs_wrapper .MyOrders_filter-reset{
+        margin-top: 8px;
+    }
+    .courses_item_top{
+        flex-direction: column;
+        align-items: start;
+    }
+    .courses_item_top-right{
+        margin-top: 12px;
+    }
+    .courses_item_info-stage_row{
+        flex-direction: column;
+        align-items: start;
+    }
+    .courses_item_info-stage_row-column{
+        margin-right: 0px;
+        margin-bottom: 12px;
+    }
+    .courses_item_info-stage_row-column:last-child{
+        margin: 0px;
+    }
+    .courses_item_link-row{
+        flex-direction: column;
+        align-items: start;
+    }
+    .courses_item_link-row-last-link{
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+    .mycours{
+        padding: 20px 0px;
+    }
+    .mycours_top, .mycours-title{
+        padding: 0px 20px;
+    }
+    .mycours-title{
+        margin-bottom: 18px;
+    }
+    .mycours-list-item-btn{
+        padding: 8px 20px;
+    }
+    .mycours_top{
+        flex-direction: column;    
+        align-items: start;
+    }
+    .courses-date{
+        margin-top: 8px;
+    }
+    .cours-progress{
+        padding: 20px;
+    }
+    .viewcours-video-list-item_container{
+        flex-direction: column;
+        align-items: start;
+    }
+    .viewcours-video-list-item_container a{
+        margin-top: 4px;
+    }
+    .viewcours-video_video iframe{
+        height: 160px;
+    }
+    .viewcours_test{
+        padding: 20px;
+    }
+    .title-main{
+        margin-bottom: 12px;
+        margin-right: 0px;
+    }
+    .title_row_right{
+        width: 100%;
+        align-items: flex-end;
+    }
+    .vebinar-speakers{
+        padding: 20px;
+    }
+    .vebinar-speakers-group{
+        column-gap: 38px;
+    }
+    .vebinar-open{
+        align-items: center;
+        text-align: center;
+    }
+    .vebinar-none{
+        padding: 20px;
+    }
+    .mycours_top-left{
+        flex-direction: column;
+        align-items: start;
+    }
+    .mycours_top-left-freecourse{
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+    .vebipage_top-left-freecourse{
+        margin: 0px 0px 0px 12px;
+    }
+    .course-buy_time{
+        flex-direction: column;
+        align-items: start;
+    }
+    .course-buy_time_right{
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+    .career_nav_list{
+        column-gap: 16px;
+    }
+    .create-resume-form, .create-resume, .created-resume{
+        padding: 20px;
+    }
+    .created-resume_top_right{
+        align-items: start;
+        text-align: left;
+    }
+    .myprogramm-list_top{
+        background-image: none;
+    }
+}

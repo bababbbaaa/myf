@@ -1,0 +1,189 @@
+@media (max-width: 1400px){
+    .leftMenu, .Hcont_L {
+        padding-left: 60px;
+        max-width: 300px;
+    }
+    .leftMenu-WRAP{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 1218px){
+    .prof__nav-li.active{
+        border-bottom: 0px;
+        border-color: #EB38D2;
+    }
+    .rating_list-item_container{
+        max-width: 100% !important;
+        width: 100%;
+        display: flex;
+        gap: 12px;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .rating_list-item_container .rating_list-item-p{
+        display: block;
+        max-width: fit-content !important;
+    }
+    .rating_list-item{
+        gap: 12px;
+        flex-direction: column;
+    }
+    .rating_list-item:nth-child(1){
+        display: none;
+    }
+    .rating_list-item-p1{
+        padding: 0px;
+        max-width: fit-content;
+    }
+    .rating_list-item-g, 
+    .rating_list-item-num,
+    .rating_list-item-rat,
+    .rating_list-item-status{
+        max-width: fit-content;
+    }
+    .rating_list-item{
+        max-width: 600px;
+    }
+    .rating_list-item-g{
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: right;
+    }
+    .article_top{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px){
+    .choose{
+        flex-direction: column-reverse;
+    }
+    .choose_filter, 
+    .choose_main{
+        max-width: 100%;
+    }
+    .specialists_main-filter-group {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .specialist_right{
+        max-width: 100%;
+    }
+    .message-right{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .leftMenu-logo{
+        padding-left: 60px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .mainpage_column-item-balance {
+        background-image: none;
+    }
+    .choose_filter{
+        padding: 20px;
+    }
+    .spetialist-card{
+        padding: 20px;
+    }
+    .specialist-main_tabs-wrapper-btns{
+        flex-direction: column;
+        row-gap: 2px;
+    }
+    .specialist-main_card{
+        padding: 20px;
+    }
+    .specialist-main_tabs-wrapper--btn{
+        max-width: 100%;
+        width: 100%;
+        border-radius: 8px;
+    }
+    .myorders-section_card{
+        padding: 20px;
+    }
+    .order-stage-tabs{
+        padding: 20px;
+    }
+    .order-stage-tab_container{
+        margin-bottom: 40px;
+    }
+    .order-stage-btns{
+        bottom: 20px;
+        right: 20px;
+    }
+    .popup-wrapper{
+        padding: 28px;
+    }
+    .rating_list-item{
+        gap: 20px;
+    }
+    .rating_list-item_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rating_list-item_container .rating_list-item-p{
+        text-align: center;
+    }
+    .rating_list-item-g{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .article-set-item{
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .spetialist-card-aside-art{
+        background-image: none;
+    }
+    .spetialist-card.article iframe{
+        height: 180px;
+    }
+    .rating_top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rating_top-left{
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .rating_top-right{
+        max-width: 100%;
+    }
+    .rating_tabs-btns{
+        gap: 12px;
+    }
+    .message-main{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    .specialist_card_top, 
+    .specialist_card_top_right, 
+    .specialist_card_top_right_btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .myorders-btns{
+        gap: 12px;
+    }
+    .myorders-btn{
+        font-size: 14px;
+    }
+    .btn-order-stage-tab-2, .btn-cont{
+        font-size: 14px;
+    }
+    .popup-case-name{
+        font-size: 26px;
+    }
+}

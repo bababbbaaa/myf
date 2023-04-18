@@ -1,0 +1,77 @@
+.steps_block {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.step {
+  background-color: #435ef5;
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 14px;
+  cursor: pointer;
+}
+.step.done {
+  background-color: #55c758;
+}
+[disabled] {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.teacher__block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.teacher__item {
+  display: flex;
+  padding: 10px;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 10px;
+}
+.teacher__image {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.teacher__name {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.material_block,
+.whatStudy_block,
+.forwhom_block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.material_item,
+.whatStudy_item,
+.forwhom_item {
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  background-color: #e1e1e1;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.material_item-text,
+.whatStudy_item-text,
+.forwhom_item-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.material_item-text span,
+.whatStudy_item-text span,
+.forwhom_item-text span {
+  font-weight: 300;
+}
